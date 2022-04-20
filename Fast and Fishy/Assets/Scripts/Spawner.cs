@@ -7,6 +7,7 @@ public class Spawner : MonoBehaviour
 	AudioManager audioManager;
 	[SerializeField] private List<GameObject> objects = new List<GameObject>();
 	[SerializeField] private GameObject enemy;
+	[SerializeField] private GameObject food;
 	[SerializeField] private GameObject enemySkeleton;
 	public bool isGameActive;
 	private float acceleration = 0.4f;
@@ -43,6 +44,9 @@ public class Spawner : MonoBehaviour
 			Vector3 enemyPosition = PositionGenerator();
 			Quaternion enemyRotation = RotationGenerator();
 			StartCoroutine(EnemySpawning(enemyPosition, enemyRotation));
+
+			Vector3 foodPosition = PositionGenerator();
+			Instantiate(food, foodPosition, Quaternion.Euler(0, 0, 0));
 		}
 		audioManager.Play("spawn");
 

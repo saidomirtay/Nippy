@@ -5353,6 +5353,7 @@ MonoBehaviour:
   - {fileID: 5970940637716360376, guid: d2ecef12091046040a01e77c66245024, type: 3}
   - {fileID: 2798085940415769782, guid: ff92d8626b1aa1240b31ff27a9c428d7, type: 3}
   enemy: {fileID: 2504545624979619859, guid: 7a1ff15138f67e14385e047d074cfa09, type: 3}
+  food: {fileID: 7381688454038634194, guid: aa73e3a4303797d458cf0499845aeb6f, type: 3}
   enemySkeleton: {fileID: 2732020167803285070, guid: 9858afb80117e3e43a633b80d0b2cffe, type: 3}
   isGameActive: 0
 --- !u!4 &281008816

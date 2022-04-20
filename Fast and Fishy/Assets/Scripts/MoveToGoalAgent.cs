@@ -4,7 +4,6 @@ public class MoveToGoalAgent : MonoBehaviour
 {
 	private GameObject player;
 	private Spawner spawner;
-	private GameManager gameManager;
 	private AudioManager audioManager;
 	private Rigidbody2D rb;
 	private float speed = 12f;
@@ -12,7 +11,6 @@ public class MoveToGoalAgent : MonoBehaviour
 	{
 		player = GameObject.FindGameObjectWithTag("Player");
 		spawner = FindObjectOfType<Spawner>();
-		gameManager = FindObjectOfType<GameManager>();
 		audioManager = FindObjectOfType<AudioManager>();
 		rb = GetComponent<Rigidbody2D>();
 	}
@@ -24,7 +22,6 @@ public class MoveToGoalAgent : MonoBehaviour
 		}
 		else if (collision.gameObject.tag == "Magma")
 		{
-			gameManager.AddScore();
 			Destroy(gameObject);
 			audioManager.Play("obstacle touch");
 		}
@@ -34,7 +31,6 @@ public class MoveToGoalAgent : MonoBehaviour
 		}
 		else if (collision.gameObject.tag == "Border")
 		{
-			gameManager.AddScore();
 			Destroy(gameObject);
 			audioManager.Play("enemy outside");
 		}

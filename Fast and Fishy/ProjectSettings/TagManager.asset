@@ -11,6 +11,7 @@ TagManager:
   - Spawner
   - GameManager
   - Bonk
+  - Food
   layers:
   - Default
   - TransparentFX

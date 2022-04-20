@@ -180,8 +180,8 @@ extern void Movement_OnCollisionEnter2D_m9BECCA90E9FF3126B1EE534E750DAB9085CE4C6
 extern void Movement_Update_m0880BACB69D5C89071A82EAB9BC17F76151B7DF1 (void);
 // 0x00000054 System.Void Movement::.ctor()
 extern void Movement__ctor_mEA4800F5BE98787C0ACA8CDF85918B56DE62A2AB (void);
-// 0x00000055 System.Void Movement::<MoveObject>g__MoveLogic|10_0(System.Single,Movement/<>c__DisplayClass10_0&)
-extern void Movement_U3CMoveObjectU3Eg__MoveLogicU7C10_0_m1583259475DF065CE568F8B1A2DCA303CFC3869D (void);
+// 0x00000055 System.Void Movement::<MoveObject>g__MoveLogic|11_0(System.Single,Movement/<>c__DisplayClass11_0&)
+extern void Movement_U3CMoveObjectU3Eg__MoveLogicU7C11_0_m8DEFCD9D432D8ABD8DA50CD2BE6BFB1D7CB78872 (void);
 // 0x00000056 System.Void SmoothCamera::LateUpdate()
 extern void SmoothCamera_LateUpdate_mFB303FA5D2C3E2E68DE2EC6952AA6C8F14412D2B (void);
 // 0x00000057 System.Void SmoothCamera::.ctor()
@@ -204,30 +204,30 @@ extern void Spawner_SpawnCoroutine_m2FC9AFEDB769C9BAD922FEEA4B92A601E2444228 (vo
 extern void Spawner_Start_m61D97BD980BD1B1877634A1E7626E47418D5D6D8 (void);
 // 0x00000060 System.Void Spawner::.ctor()
 extern void Spawner__ctor_m08E8D40AAA40F4329D8A95EEE2B2B6BE842CEB9C (void);
-// 0x00000061 System.Void Spawner/<EnemySpawning>d__11::.ctor(System.Int32)
-extern void U3CEnemySpawningU3Ed__11__ctor_m9E9E5DF9335C8966F3E163BE423228E5B4F44F66 (void);
-// 0x00000062 System.Void Spawner/<EnemySpawning>d__11::System.IDisposable.Dispose()
-extern void U3CEnemySpawningU3Ed__11_System_IDisposable_Dispose_m37294C1AEEE0A0538E7C9DB02E14780A11B7947D (void);
-// 0x00000063 System.Boolean Spawner/<EnemySpawning>d__11::MoveNext()
-extern void U3CEnemySpawningU3Ed__11_MoveNext_m62BD3CE34372D9A5513C2E344D192D053A3010B7 (void);
-// 0x00000064 System.Object Spawner/<EnemySpawning>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CEnemySpawningU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1D96B69550C50A88C7A43EEEA7AEF19611AE1E78 (void);
-// 0x00000065 System.Void Spawner/<EnemySpawning>d__11::System.Collections.IEnumerator.Reset()
-extern void U3CEnemySpawningU3Ed__11_System_Collections_IEnumerator_Reset_mD3481FFA0E6B5EA967CAB27CD12F55D31B8AFE58 (void);
-// 0x00000066 System.Object Spawner/<EnemySpawning>d__11::System.Collections.IEnumerator.get_Current()
-extern void U3CEnemySpawningU3Ed__11_System_Collections_IEnumerator_get_Current_m11FBFCA2773DD980342C892757F363704F04CC35 (void);
-// 0x00000067 System.Void Spawner/<SpawnCoroutine>d__12::.ctor(System.Int32)
-extern void U3CSpawnCoroutineU3Ed__12__ctor_mC3EE4660B86F02EA47259EEACDA70DE8FEFFDBB5 (void);
-// 0x00000068 System.Void Spawner/<SpawnCoroutine>d__12::System.IDisposable.Dispose()
-extern void U3CSpawnCoroutineU3Ed__12_System_IDisposable_Dispose_m560FD0B7E6F01AE468F75B6E9892D900D25AADCF (void);
-// 0x00000069 System.Boolean Spawner/<SpawnCoroutine>d__12::MoveNext()
-extern void U3CSpawnCoroutineU3Ed__12_MoveNext_m19270BDB8AFB38CD3A5BC51799913A256DB98D99 (void);
-// 0x0000006A System.Object Spawner/<SpawnCoroutine>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CSpawnCoroutineU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3CF14D1D7B5A6E2250972EFA04B8D1409E1717FC (void);
-// 0x0000006B System.Void Spawner/<SpawnCoroutine>d__12::System.Collections.IEnumerator.Reset()
-extern void U3CSpawnCoroutineU3Ed__12_System_Collections_IEnumerator_Reset_m9BDFB76EC8251021CA76F709F56F5B492913B629 (void);
-// 0x0000006C System.Object Spawner/<SpawnCoroutine>d__12::System.Collections.IEnumerator.get_Current()
-extern void U3CSpawnCoroutineU3Ed__12_System_Collections_IEnumerator_get_Current_m5BDEFA1B75FE8741EFFB3FE356F9FF2434B0A92F (void);
+// 0x00000061 System.Void Spawner/<EnemySpawning>d__12::.ctor(System.Int32)
+extern void U3CEnemySpawningU3Ed__12__ctor_m97DADD1D4130B03E8156E014F430A03CA137F488 (void);
+// 0x00000062 System.Void Spawner/<EnemySpawning>d__12::System.IDisposable.Dispose()
+extern void U3CEnemySpawningU3Ed__12_System_IDisposable_Dispose_m4C5D8B0680E99A56707CA55530E7C9F6B83301C8 (void);
+// 0x00000063 System.Boolean Spawner/<EnemySpawning>d__12::MoveNext()
+extern void U3CEnemySpawningU3Ed__12_MoveNext_m1D09626C5894FB82E162D1E392DB7510A1B9FA7C (void);
+// 0x00000064 System.Object Spawner/<EnemySpawning>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CEnemySpawningU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA78449ACA012D10C1C833981C78F5F1A013B2642 (void);
+// 0x00000065 System.Void Spawner/<EnemySpawning>d__12::System.Collections.IEnumerator.Reset()
+extern void U3CEnemySpawningU3Ed__12_System_Collections_IEnumerator_Reset_m43D82E87F482099C757AD22A9090ED5C389D0B3B (void);
+// 0x00000066 System.Object Spawner/<EnemySpawning>d__12::System.Collections.IEnumerator.get_Current()
+extern void U3CEnemySpawningU3Ed__12_System_Collections_IEnumerator_get_Current_m6C63B3C5842D01C32A91D008962E1D6B16764FEA (void);
+// 0x00000067 System.Void Spawner/<SpawnCoroutine>d__13::.ctor(System.Int32)
+extern void U3CSpawnCoroutineU3Ed__13__ctor_mAE6851AEC4288955D5CB7732480A86FC6D9CB51D (void);
+// 0x00000068 System.Void Spawner/<SpawnCoroutine>d__13::System.IDisposable.Dispose()
+extern void U3CSpawnCoroutineU3Ed__13_System_IDisposable_Dispose_m747A6BBE8127E242ACACB83BBDF13A22E378128C (void);
+// 0x00000069 System.Boolean Spawner/<SpawnCoroutine>d__13::MoveNext()
+extern void U3CSpawnCoroutineU3Ed__13_MoveNext_mD710A09E10A4CB0140F4B28728044B440BD32D2A (void);
+// 0x0000006A System.Object Spawner/<SpawnCoroutine>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CSpawnCoroutineU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAD8DC5946D4B5B6C8A3A66AA7203DCF653BC9F7D (void);
+// 0x0000006B System.Void Spawner/<SpawnCoroutine>d__13::System.Collections.IEnumerator.Reset()
+extern void U3CSpawnCoroutineU3Ed__13_System_Collections_IEnumerator_Reset_m4234C71D56ED338702F600E4994B33AD7E5F0FEF (void);
+// 0x0000006C System.Object Spawner/<SpawnCoroutine>d__13::System.Collections.IEnumerator.get_Current()
+extern void U3CSpawnCoroutineU3Ed__13_System_Collections_IEnumerator_get_Current_mBDD89D48B33D3F91CF58559FF3E58553921E4886 (void);
 static Il2CppMethodPointer s_methodPointers[108] = 
 {
 	Joystick_get_Horizontal_m1AE640531EE5E28A63A8D5AC757F9753DDA56321,
@@ -314,7 +314,7 @@ static Il2CppMethodPointer s_methodPointers[108] =
 	Movement_OnCollisionEnter2D_m9BECCA90E9FF3126B1EE534E750DAB9085CE4C6A,
 	Movement_Update_m0880BACB69D5C89071A82EAB9BC17F76151B7DF1,
 	Movement__ctor_mEA4800F5BE98787C0ACA8CDF85918B56DE62A2AB,
-	Movement_U3CMoveObjectU3Eg__MoveLogicU7C10_0_m1583259475DF065CE568F8B1A2DCA303CFC3869D,
+	Movement_U3CMoveObjectU3Eg__MoveLogicU7C11_0_m8DEFCD9D432D8ABD8DA50CD2BE6BFB1D7CB78872,
 	SmoothCamera_LateUpdate_mFB303FA5D2C3E2E68DE2EC6952AA6C8F14412D2B,
 	SmoothCamera__ctor_mD3AC9135980C9441D214DA7875A8E0C311FE587D,
 	Sound__ctor_mEA0B0D2FBD514F91C21900B0BB8679CD78843FCD,
@@ -326,18 +326,18 @@ static Il2CppMethodPointer s_methodPointers[108] =
 	Spawner_SpawnCoroutine_m2FC9AFEDB769C9BAD922FEEA4B92A601E2444228,
 	Spawner_Start_m61D97BD980BD1B1877634A1E7626E47418D5D6D8,
 	Spawner__ctor_m08E8D40AAA40F4329D8A95EEE2B2B6BE842CEB9C,
-	U3CEnemySpawningU3Ed__11__ctor_m9E9E5DF9335C8966F3E163BE423228E5B4F44F66,
-	U3CEnemySpawningU3Ed__11_System_IDisposable_Dispose_m37294C1AEEE0A0538E7C9DB02E14780A11B7947D,
-	U3CEnemySpawningU3Ed__11_MoveNext_m62BD3CE34372D9A5513C2E344D192D053A3010B7,
-	U3CEnemySpawningU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1D96B69550C50A88C7A43EEEA7AEF19611AE1E78,
-	U3CEnemySpawningU3Ed__11_System_Collections_IEnumerator_Reset_mD3481FFA0E6B5EA967CAB27CD12F55D31B8AFE58,
-	U3CEnemySpawningU3Ed__11_System_Collections_IEnumerator_get_Current_m11FBFCA2773DD980342C892757F363704F04CC35,
-	U3CSpawnCoroutineU3Ed__12__ctor_mC3EE4660B86F02EA47259EEACDA70DE8FEFFDBB5,
-	U3CSpawnCoroutineU3Ed__12_System_IDisposable_Dispose_m560FD0B7E6F01AE468F75B6E9892D900D25AADCF,
-	U3CSpawnCoroutineU3Ed__12_MoveNext_m19270BDB8AFB38CD3A5BC51799913A256DB98D99,
-	U3CSpawnCoroutineU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3CF14D1D7B5A6E2250972EFA04B8D1409E1717FC,
-	U3CSpawnCoroutineU3Ed__12_System_Collections_IEnumerator_Reset_m9BDFB76EC8251021CA76F709F56F5B492913B629,
-	U3CSpawnCoroutineU3Ed__12_System_Collections_IEnumerator_get_Current_m5BDEFA1B75FE8741EFFB3FE356F9FF2434B0A92F,
+	U3CEnemySpawningU3Ed__12__ctor_m97DADD1D4130B03E8156E014F430A03CA137F488,
+	U3CEnemySpawningU3Ed__12_System_IDisposable_Dispose_m4C5D8B0680E99A56707CA55530E7C9F6B83301C8,
+	U3CEnemySpawningU3Ed__12_MoveNext_m1D09626C5894FB82E162D1E392DB7510A1B9FA7C,
+	U3CEnemySpawningU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA78449ACA012D10C1C833981C78F5F1A013B2642,
+	U3CEnemySpawningU3Ed__12_System_Collections_IEnumerator_Reset_m43D82E87F482099C757AD22A9090ED5C389D0B3B,
+	U3CEnemySpawningU3Ed__12_System_Collections_IEnumerator_get_Current_m6C63B3C5842D01C32A91D008962E1D6B16764FEA,
+	U3CSpawnCoroutineU3Ed__13__ctor_mAE6851AEC4288955D5CB7732480A86FC6D9CB51D,
+	U3CSpawnCoroutineU3Ed__13_System_IDisposable_Dispose_m747A6BBE8127E242ACACB83BBDF13A22E378128C,
+	U3CSpawnCoroutineU3Ed__13_MoveNext_mD710A09E10A4CB0140F4B28728044B440BD32D2A,
+	U3CSpawnCoroutineU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAD8DC5946D4B5B6C8A3A66AA7203DCF653BC9F7D,
+	U3CSpawnCoroutineU3Ed__13_System_Collections_IEnumerator_Reset_m4234C71D56ED338702F600E4994B33AD7E5F0FEF,
+	U3CSpawnCoroutineU3Ed__13_System_Collections_IEnumerator_get_Current_mBDD89D48B33D3F91CF58559FF3E58553921E4886,
 };
 static const int32_t s_InvokerIndices[108] = 
 {

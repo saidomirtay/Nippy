@@ -5,6 +5,7 @@ public class Movement : MonoBehaviour
 	[SerializeField] private GameObject joystick;
 	[SerializeField] private Sprite fish;
 	[SerializeField] private Sprite skeleton;
+	private GameManager gameManager;
 	private SpriteRenderer spriteRenderer;
 	private Rigidbody2D rb;
 	private Joystick joystickScript;
@@ -13,6 +14,7 @@ public class Movement : MonoBehaviour
 
 	private void Awake()
 	{
+		gameManager = FindObjectOfType<GameManager>();
 		joystickScript = joystick.GetComponent<Joystick>();
 		spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 		rb = gameObject.GetComponent<Rigidbody2D>();
@@ -56,6 +58,11 @@ public class Movement : MonoBehaviour
 			rb.angularVelocity = 0f;
 			joystickScript.input = Vector2.zero;
 			FindObjectOfType<GameManager>().EndGame();
+		}
+		else if(collision.gameObject.tag == "Food")
+		{
+			gameManager.AddScore();
+			Destroy(collision.gameObject);
 		}
 	}
 
